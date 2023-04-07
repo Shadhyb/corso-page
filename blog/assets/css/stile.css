@@ -1,4 +1,5 @@
 /* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 html {font-size: 62.5%;}
 body { 
     font-family: Poppins, 'Helvetica Neue', sans-serif;
@@ -64,7 +65,7 @@ hr {display: none;} /* rimuove l'elemento */
 /* HEADER */
 header {
     background: rgb(0,160,198);
-    background: linear-gradient(180deg, rgba(0,160,198,1) 0%, rgba(3,109,134,1) 68%);
+    background: linear-gradient(180deg, rgb(89, 0, 198) 0%, rgb(6, 211, 211) 68%);
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -75,6 +76,12 @@ header {
     position: sticky;
     top: 0;
     z-index: 10;
+}
+#logo{
+    font-size: xx-large;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: underline greenyellow;
+    color:#E91E63;
 }
 @media screen and (min-width:800px) {
     header {
@@ -113,7 +120,7 @@ header nav li {
         margin-right: 0;
     }
 header nav li a {
-    color: white;
+    color: rgb(7, 7, 7);
     text-decoration: none;
 }
 header nav li a:hover {
@@ -299,9 +306,13 @@ aside h2 {
 }
 aside .wrapper div {
     background-color: #e3e3e3;
-    border: 1px solid #c3c3c3;
+    background: linear-gradient(to right,#E91E63, purple);
     margin-bottom: 1em;
+    color:white;
     padding: 1em;
+}
+aside .wrapper div a{
+color:chartreuse;
 }
 aside .wrapper div p:last-child {
     margin-bottom: 0;
@@ -332,7 +343,7 @@ aside .wrapper div p:last-child {
 /* FOOTER */
 footer {
     background: rgb(53,53,53);
-    background: linear-gradient(0deg, rgba(53,53,53,1) 0%, rgba(5,85,103,1) 68%);
+    background: linear-gradient(0deg, rgb(89, 0, 198) 0%, rgb(6, 211, 211) 68%);
     box-shadow: 0 3px 3px #444;
     color: #f0f0f0;
     padding: 1em;
@@ -346,7 +357,10 @@ footer {
     }
 
 footer a {
-    color: fuchsia;
+    color:#e91e63
+}
+footer p{
+    color:black
 }
 
 
