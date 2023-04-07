@@ -8,6 +8,11 @@ body {
     line-height: 1.65;
     color: #393d41;
   }
+  .logo{
+    color:greenyellow;
+    font-size: larger;
+    font-weight:900;
+  }
   
   h1,
   h2,
