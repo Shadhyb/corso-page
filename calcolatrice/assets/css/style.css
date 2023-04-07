@@ -72,7 +72,7 @@ body {
 #foglio {
   box-sizing: border-box;
   border: 1px solid #959da4;
-  background-color: #DBC9B4;
+  background-color: #e2dcd5;
   margin-left: 100px;
   margin-top: 30px;
   width: 500px;
@@ -86,7 +86,6 @@ body {
 }
 #foglio div {
   padding: 10px;
-  
   font-family: "Gochi Hand";
   font-size: xx-large;
   color: red;
@@ -102,8 +101,8 @@ body {
 
 }
 #links{
-  position: absolute;
-  left:1470px;
+  position: fixed;
+  left:1670px;
   top:92vh;
 }
 
